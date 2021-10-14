@@ -6,3 +6,13 @@ Q5. Line 12 causes a "i is not defined" error. This is becuase we have changed t
 Q6. Line 13 causes an error saying "discountedPrice is not defined". This is because we have changed the declaration of discountedPrice from var to let, meaning that the scope of discountedPrice is only within the for loop block. Since we attempt to access discountedPrice outside the for loop block on line 13, we get an error. 
 Q7. 150 gets outputted to the terminal becuase we are simply logging the finalPrice of the last element in the prices array applied with the discount. We can access finalPrice decalred with let because we access it in the same block of code. 
 Q8. This function will return an array, discounted, containing original prices from the prices array applied with the discount parameter. This is because in the loop, we are iterating through the prices array, applying the discount to each price in the prices array and pushing the finalPrice containing the discountedPrice to the the discounted array. 
+Q9. Line 11 causes a "i is not defined" error. This is becuase we have changed the declaration of i from var to let, meaning that the scope of i is only within the block of the for loop. Since we attempt to access i outside the for loop block on line 11, we get an error. 
+Q10. Line 12 outputs 3 to the terminal. We are logging the const variable length which is equal to the length of the prices array. In this case the length of the prices array is 3 becuase it contains 3 items. 
+Q11. This function returns discounted, an array containing the corresponding original items from the passed in prices array applied with the passed in value for the discount parameter. 
+Q12. 
+    a. student.name 
+    b. student["Grad Year"]
+    c. student.greeting()
+    d. student["Favorite Teacher"].name
+    e. student.courseLoad[0] 
+Q13. 
