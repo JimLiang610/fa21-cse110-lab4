@@ -1,1 +1,4 @@
-
+Q1. Line 12 outputs 3 becuase it prints the value of the var variable i used in the for loop. At the end of the for loop, i = 3 becuase after the last iteration of the third element in the passed array, i will be incremented to 3 and the for loop will check and see that i is not less than the length of the passed array which is 3 and exit. 
+Q2. Line 13 outputs 150 which is the value of discountedPrice. discountedPrice has the value of 150 becuase it contains the value of of the original price of the last element in the prices array, 300, minus the 50% discount, which is 150. 
+Q3. Line 14 outputs 150, the value of the finalPrice. finalPrice has the value of 150 becuase it takes the value of the discountedPrice, which we know is 150 from question 2 and multiplies and divides it by 100, resulting in 150. 
+Q4. This function will return an array, discounted, containing original prices from the prices array applied with the discount parameter. This is because in the loop, we are iterating through the prices array, applying the discount to each price in the prices array and pushing the finalPrice containing the discountedPrice to the the discounted array. 
