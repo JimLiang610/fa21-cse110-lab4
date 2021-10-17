@@ -33,3 +33,9 @@ Q14.
     F. true === Boolean(2) is true. 2 is converted to the boolean value of true which means they are equal. 
 Q15. The difference between == and === operators is that == will attempt to convert and compare operands of different types. The === operator will always consider operands of differnt types to be different and thus, false. 
 Q17. The result will be a new array, newArr, that contain corresponoding values from the array parameter multiplied by 2. 
+Q18. 
+    1
+    4
+    3
+    2
+
