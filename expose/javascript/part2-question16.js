@@ -14,7 +14,6 @@ for (const property in statistics) {
         //if so print the property name 
         console.log(property);
     }
-    
 } 
 
 

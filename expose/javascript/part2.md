@@ -32,3 +32,4 @@ Q14.
     E. true == 2 is false. Javascript converts true to the numerical value of 1 and compares it to 2 which they are not equal. 
     F. true === Boolean(2) is true. 2 is converted to the boolean value of true which means they are equal. 
 Q15. The difference between == and === operators is that == will attempt to convert and compare operands of different types. The === operator will always consider operands of differnt types to be different and thus, false. 
+Q17. The result will be a new array, newArr, that contain corresponoding values from the array parameter multiplied by 2. 
